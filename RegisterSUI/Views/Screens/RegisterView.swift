@@ -12,12 +12,7 @@ struct RegisterView: View {
 
     var body: some View {
         ZStack {
-            LinearGradient(
-                gradient: Gradient(colors: [Color(#colorLiteral(red: 0.6078431373, green: 0.3647058824, blue: 0.8470588235, alpha: 1)), Color(#colorLiteral(red: 0.1882352941, green: 0.4823529412, blue: 0.9607843137, alpha: 1))]),
-                startPoint: .top,
-                endPoint: .bottom
-            )
-            .ignoresSafeArea()
+            AnimatedGradientBackground(gradient: [Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)), Color(#colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)), Color(#colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1))])
             
             VStack {
                 Text("User registration")

@@ -21,10 +21,12 @@
 		A24269DA26B8F776009714D3 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269D926B8F776009714D3 /* SignUpButton.swift */; };
 		A24269DD26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269DC26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift */; };
 		A24269DF26B9168C009714D3 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269DE26B9168C009714D3 /* SettingsManager.swift */; };
-		A24269E426B91BC5009714D3 /* AccountViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E326B91BC5009714D3 /* AccountViewBackground.swift */; };
+		A24269E426B91BC5009714D3 /* ImageBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E326B91BC5009714D3 /* ImageBackgroundView.swift */; };
 		A24269E626B9227A009714D3 /* LogoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E526B9227A009714D3 /* LogoutButton.swift */; };
 		A24269E826B92392009714D3 /* AccountTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E726B92392009714D3 /* AccountTitle.swift */; };
 		A24269EA26B923C7009714D3 /* UserPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E926B923C7009714D3 /* UserPhoto.swift */; };
+		A2F0414D26B955DC00F3FC86 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0414C26B955DC00F3FC86 /* Screens.swift */; };
+		A2F0415126B9577F00F3FC86 /* AnimatedGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0415026B9577F00F3FC86 /* AnimatedGradientBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +46,12 @@
 		A24269D926B8F776009714D3 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
 		A24269DC26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterView+getContextBackgroundColor.swift"; sourceTree = "<group>"; };
 		A24269DE26B9168C009714D3 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
-		A24269E326B91BC5009714D3 /* AccountViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewBackground.swift; sourceTree = "<group>"; };
+		A24269E326B91BC5009714D3 /* ImageBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBackgroundView.swift; sourceTree = "<group>"; };
 		A24269E526B9227A009714D3 /* LogoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButton.swift; sourceTree = "<group>"; };
 		A24269E726B92392009714D3 /* AccountTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTitle.swift; sourceTree = "<group>"; };
 		A24269E926B923C7009714D3 /* UserPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhoto.swift; sourceTree = "<group>"; };
+		A2F0414C26B955DC00F3FC86 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		A2F0415026B9577F00F3FC86 /* AnimatedGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		A24269B326B8DCE1009714D3 /* RegisterSUI */ = {
 			isa = PBXGroup;
 			children = (
+				A2F0414B26B955CD00F3FC86 /* Enums */,
 				A24269DB26B8FC7A009714D3 /* Extensions */,
 				A24269C526B8DDF3009714D3 /* Application */,
 				A24269D126B8EE93009714D3 /* Managers */,
@@ -105,10 +110,11 @@
 				A24269D426B8EF90009714D3 /* Screens */,
 				A24269CB26B8E793009714D3 /* LogoView.swift */,
 				A24269D926B8F776009714D3 /* SignUpButton.swift */,
-				A24269E326B91BC5009714D3 /* AccountViewBackground.swift */,
+				A24269E326B91BC5009714D3 /* ImageBackgroundView.swift */,
 				A24269E526B9227A009714D3 /* LogoutButton.swift */,
 				A24269E726B92392009714D3 /* AccountTitle.swift */,
 				A24269E926B923C7009714D3 /* UserPhoto.swift */,
+				A2F0415026B9577F00F3FC86 /* AnimatedGradientBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +171,14 @@
 				A24269DC26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A2F0414B26B955CD00F3FC86 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0414C26B955DC00F3FC86 /* Screens.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +254,9 @@
 				A24269E626B9227A009714D3 /* LogoutButton.swift in Sources */,
 				A24269CC26B8E793009714D3 /* LogoView.swift in Sources */,
 				A24269EA26B923C7009714D3 /* UserPhoto.swift in Sources */,
-				A24269E426B91BC5009714D3 /* AccountViewBackground.swift in Sources */,
+				A24269E426B91BC5009714D3 /* ImageBackgroundView.swift in Sources */,
 				A24269D626B8F03F009714D3 /* ContentView.swift in Sources */,
+				A2F0414D26B955DC00F3FC86 /* Screens.swift in Sources */,
 				A24269D326B8EEA4009714D3 /* UserManager.swift in Sources */,
 				A24269B526B8DCE1009714D3 /* RegisterSUIApp.swift in Sources */,
 				A24269D026B8ED96009714D3 /* ButtonStyle.swift in Sources */,
@@ -249,6 +264,7 @@
 				A24269D826B8F0C0009714D3 /* AccountView.swift in Sources */,
 				A24269CE26B8E986009714D3 /* TextFieldStyle.swift in Sources */,
 				A24269DF26B9168C009714D3 /* SettingsManager.swift in Sources */,
+				A2F0415126B9577F00F3FC86 /* AnimatedGradientBackground.swift in Sources */,
 				A24269CA26B8E265009714D3 /* ViewShadow.swift in Sources */,
 				A24269DA26B8F776009714D3 /* SignUpButton.swift in Sources */,
 				A24269DD26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift in Sources */,

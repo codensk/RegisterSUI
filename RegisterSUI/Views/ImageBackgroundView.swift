@@ -1,5 +1,5 @@
 //
-//  AccountViewBackground.swift
+//  ImageBackgroundView.swift
 //  RegisterSUI
 //
 //  Created by SERGEY VOROBEV on 03.08.2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AccountViewBackground: View {
+struct ImageBackgroundView: View {
     var body: some View {
         Image("background")
             .resizable()
@@ -27,6 +27,6 @@ struct AccountViewBackground: View {
 
 struct AccountViewBackground_Previews: PreviewProvider {
     static var previews: some View {
-        AccountViewBackground()
+        ImageBackgroundView()
     }
 }

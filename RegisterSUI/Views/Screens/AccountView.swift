@@ -8,16 +8,22 @@
 import SwiftUI
 
 struct AccountView: View {
+    @EnvironmentObject var userManager: UserManager
+    
     var body: some View {
         ZStack {
-            AccountViewBackground()
+            AnimatedGradientBackground(gradient: [Color(#colorLiteral(red: 0, green: 0.2, blue: 1, alpha: 1)), Color(#colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)), Color(#colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1))])
             
-            VStack(spacing: 50) {
+            VStack(spacing: 40) {
+                Spacer()
+                
                 AccountTitle()
                 
                 UserPhoto()
                 
                 LogoutButton()
+                
+                Spacer()
             }
         }
     }

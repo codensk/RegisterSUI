@@ -7,6 +7,7 @@
 import Combine
 
 final class UserManager: ObservableObject {
+    @Published var currentUserScreen: Screens = Screens.Home
     @Published var isRegistered = false
     @Published var userName = ""
     @Published var password = ""
@@ -32,10 +33,12 @@ final class UserManager: ObservableObject {
             self.password = password
             
             isRegistered = true
+            currentUserScreen = .Account
             
             saveUser(username: userName, password: password)
         } else {
             isRegistered = false
+            currentUserScreen = .Home
         }
     }
     
@@ -59,6 +62,7 @@ final class UserManager: ObservableObject {
         self.password = ""
         
         isRegistered = false
+        currentUserScreen = .Home
     }
     
     private func checkUserRegistered() {
@@ -68,6 +72,7 @@ final class UserManager: ObservableObject {
             self.password = password
             
             isRegistered = true
+            currentUserScreen = .Account
         }
     }
     

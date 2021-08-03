@@ -12,9 +12,11 @@ struct ContentView: View {
     
     var body: some View {
         Group {
-            if !userManager.isRegistered {
+            
+            switch userManager.currentUserScreen {
+            case .Home:
                 RegisterView()
-            } else {
+            case .Account:
                 AccountView().transition(.move(edge: .trailing))
             }
         }

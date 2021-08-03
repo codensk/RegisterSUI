@@ -14,7 +14,7 @@ struct AccountTitle: View {
     
     var body: some View {
         Text("Hello, \(userManager.userName)!")
-            .foregroundColor(.white)
+            .foregroundColor(.black)
             .font(.title)
             .fontWeight(.light)
             .scaleEffect(scale)

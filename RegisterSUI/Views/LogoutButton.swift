@@ -17,13 +17,14 @@ struct LogoutButton: View {
         }
         .foregroundColor(.white)
         .background(
-            Color(.black)
+            Color(#colorLiteral(red: 0.1764705882, green: 0.1764705882, blue: 0.6235294118, alpha: 1))
                 .opacity(0.8))
+        .cornerRadius(10)
     }
 }
 
 struct LogoutButton_Previews: PreviewProvider {
     static var previews: some View {
-        LogoutButton()
+        LogoutButton().environmentObject(UserManager())
     }
 }
