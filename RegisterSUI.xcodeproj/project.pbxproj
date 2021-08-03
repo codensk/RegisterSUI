@@ -8,18 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		A24269B526B8DCE1009714D3 /* RegisterSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269B426B8DCE1009714D3 /* RegisterSUIApp.swift */; };
-		A24269B726B8DCE1009714D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269B626B8DCE1009714D3 /* ContentView.swift */; };
+		A24269B726B8DCE1009714D3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269B626B8DCE1009714D3 /* RegisterView.swift */; };
 		A24269B926B8DCE5009714D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24269B826B8DCE5009714D3 /* Assets.xcassets */; };
 		A24269BC26B8DCE5009714D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24269BB26B8DCE5009714D3 /* Preview Assets.xcassets */; };
+		A24269CA26B8E265009714D3 /* ViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269C926B8E265009714D3 /* ViewShadow.swift */; };
+		A24269CC26B8E793009714D3 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269CB26B8E793009714D3 /* LogoView.swift */; };
+		A24269CE26B8E986009714D3 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269CD26B8E986009714D3 /* TextFieldStyle.swift */; };
+		A24269D026B8ED96009714D3 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269CF26B8ED96009714D3 /* ButtonStyle.swift */; };
+		A24269D326B8EEA4009714D3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269D226B8EEA4009714D3 /* UserManager.swift */; };
+		A24269D626B8F03F009714D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269D526B8F03F009714D3 /* ContentView.swift */; };
+		A24269D826B8F0C0009714D3 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269D726B8F0C0009714D3 /* AccountView.swift */; };
+		A24269DA26B8F776009714D3 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269D926B8F776009714D3 /* SignUpButton.swift */; };
+		A24269DD26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269DC26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift */; };
+		A24269DF26B9168C009714D3 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269DE26B9168C009714D3 /* SettingsManager.swift */; };
+		A24269E426B91BC5009714D3 /* AccountViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E326B91BC5009714D3 /* AccountViewBackground.swift */; };
+		A24269E626B9227A009714D3 /* LogoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E526B9227A009714D3 /* LogoutButton.swift */; };
+		A24269E826B92392009714D3 /* AccountTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E726B92392009714D3 /* AccountTitle.swift */; };
+		A24269EA26B923C7009714D3 /* UserPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24269E926B923C7009714D3 /* UserPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A24269B126B8DCE1009714D3 /* RegisterSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24269B426B8DCE1009714D3 /* RegisterSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSUIApp.swift; sourceTree = "<group>"; };
-		A24269B626B8DCE1009714D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A24269B626B8DCE1009714D3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		A24269B826B8DCE5009714D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24269BB26B8DCE5009714D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A24269BD26B8DCE5009714D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24269C926B8E265009714D3 /* ViewShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShadow.swift; sourceTree = "<group>"; };
+		A24269CB26B8E793009714D3 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		A24269CD26B8E986009714D3 /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		A24269CF26B8ED96009714D3 /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		A24269D226B8EEA4009714D3 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		A24269D526B8F03F009714D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A24269D726B8F0C0009714D3 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		A24269D926B8F776009714D3 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		A24269DC26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterView+getContextBackgroundColor.swift"; sourceTree = "<group>"; };
+		A24269DE26B9168C009714D3 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		A24269E326B91BC5009714D3 /* AccountViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewBackground.swift; sourceTree = "<group>"; };
+		A24269E526B9227A009714D3 /* LogoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButton.swift; sourceTree = "<group>"; };
+		A24269E726B92392009714D3 /* AccountTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTitle.swift; sourceTree = "<group>"; };
+		A24269E926B923C7009714D3 /* UserPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +80,12 @@
 		A24269B326B8DCE1009714D3 /* RegisterSUI */ = {
 			isa = PBXGroup;
 			children = (
-				A24269B426B8DCE1009714D3 /* RegisterSUIApp.swift */,
-				A24269B626B8DCE1009714D3 /* ContentView.swift */,
-				A24269B826B8DCE5009714D3 /* Assets.xcassets */,
-				A24269BD26B8DCE5009714D3 /* Info.plist */,
+				A24269DB26B8FC7A009714D3 /* Extensions */,
+				A24269C526B8DDF3009714D3 /* Application */,
+				A24269D126B8EE93009714D3 /* Managers */,
+				A24269C326B8DDB7009714D3 /* Views */,
+				A24269C626B8DEDD009714D3 /* ViewModifiers */,
+				A24269C426B8DDC8009714D3 /* Resources */,
 				A24269BA26B8DCE5009714D3 /* Preview Content */,
 			);
 			path = RegisterSUI;
@@ -67,6 +97,74 @@
 				A24269BB26B8DCE5009714D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A24269C326B8DDB7009714D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A24269D426B8EF90009714D3 /* Screens */,
+				A24269CB26B8E793009714D3 /* LogoView.swift */,
+				A24269D926B8F776009714D3 /* SignUpButton.swift */,
+				A24269E326B91BC5009714D3 /* AccountViewBackground.swift */,
+				A24269E526B9227A009714D3 /* LogoutButton.swift */,
+				A24269E726B92392009714D3 /* AccountTitle.swift */,
+				A24269E926B923C7009714D3 /* UserPhoto.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A24269C426B8DDC8009714D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A24269B826B8DCE5009714D3 /* Assets.xcassets */,
+				A24269BD26B8DCE5009714D3 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A24269C526B8DDF3009714D3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A24269B426B8DCE1009714D3 /* RegisterSUIApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A24269C626B8DEDD009714D3 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A24269C926B8E265009714D3 /* ViewShadow.swift */,
+				A24269CD26B8E986009714D3 /* TextFieldStyle.swift */,
+				A24269CF26B8ED96009714D3 /* ButtonStyle.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		A24269D126B8EE93009714D3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A24269D226B8EEA4009714D3 /* UserManager.swift */,
+				A24269DE26B9168C009714D3 /* SettingsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A24269D426B8EF90009714D3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A24269B626B8DCE1009714D3 /* RegisterView.swift */,
+				A24269D526B8F03F009714D3 /* ContentView.swift */,
+				A24269D726B8F0C0009714D3 /* AccountView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A24269DB26B8FC7A009714D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A24269DC26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +236,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24269B726B8DCE1009714D3 /* ContentView.swift in Sources */,
+				A24269B726B8DCE1009714D3 /* RegisterView.swift in Sources */,
+				A24269E626B9227A009714D3 /* LogoutButton.swift in Sources */,
+				A24269CC26B8E793009714D3 /* LogoView.swift in Sources */,
+				A24269EA26B923C7009714D3 /* UserPhoto.swift in Sources */,
+				A24269E426B91BC5009714D3 /* AccountViewBackground.swift in Sources */,
+				A24269D626B8F03F009714D3 /* ContentView.swift in Sources */,
+				A24269D326B8EEA4009714D3 /* UserManager.swift in Sources */,
 				A24269B526B8DCE1009714D3 /* RegisterSUIApp.swift in Sources */,
+				A24269D026B8ED96009714D3 /* ButtonStyle.swift in Sources */,
+				A24269E826B92392009714D3 /* AccountTitle.swift in Sources */,
+				A24269D826B8F0C0009714D3 /* AccountView.swift in Sources */,
+				A24269CE26B8E986009714D3 /* TextFieldStyle.swift in Sources */,
+				A24269DF26B9168C009714D3 /* SettingsManager.swift in Sources */,
+				A24269CA26B8E265009714D3 /* ViewShadow.swift in Sources */,
+				A24269DA26B8F776009714D3 /* SignUpButton.swift in Sources */,
+				A24269DD26B8FCAC009714D3 /* RegisterView+getContextBackgroundColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +383,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RegisterSUI/Preview Content\"";
 				DEVELOPMENT_TEAM = HP2GYZ69BY;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RegisterSUI/Info.plist;
+				INFOPLIST_FILE = RegisterSUI/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +405,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RegisterSUI/Preview Content\"";
 				DEVELOPMENT_TEAM = HP2GYZ69BY;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RegisterSUI/Info.plist;
+				INFOPLIST_FILE = RegisterSUI/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
